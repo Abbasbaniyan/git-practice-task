@@ -116,6 +116,84 @@ cd repository-name
 git add .
 git commit -m "Improved README"
 git push origin main
-#
-
+<img width="1891" height="904" alt="Screenshot 2026-06-04 052948" src="https://github.com/user-attachments/assets/653664e9-68f2-44f6-ba58-f879e5141a58" />
 <img width="918" height="342" alt="Screenshot 2026-06-04 022928" src="https://github.com/user-attachments/assets/961d71dc-e2c2-444c-8c8a-4bfea83cfdce" />
+
+##Task 11: Create GitLab Repository and Initial Project Structure
+Description
+
+Created a new private repository in GitLab and cloned it to the local machine using SSH. A basic project structure was created by adding the src and docs directories along with the required files. The changes were committed and pushed to the GitLab repository.
+
+Steps Performed
+Logged in to GitLab.
+Created a new private project named gitlab-practice-task.
+Cloned the repository using SSH.
+Created the src and docs directories.
+Added the following files:
+README.md
+src/app.py
+docs/guide.md
+Committed the changes.
+Pushed the project structure to GitLab.
+Commands Used
+git clone git@gitlab.com:abbasbaniyan-group/gitlab-practice-task.git
+cd gitlab-practice-task
+
+mkdir src
+mkdir docs
+
+git add .
+git commit -m "Initial GitLab structure"
+git push origin main
+
+<img width="1099" height="849" alt="Screenshot 2026-06-04 025715" src="https://github.com/user-attachments/assets/aa5a10ce-1aec-4e47-b71f-6af04f33cac0" />
+<img width="965" height="186" alt="Screenshot 2026-06-04 030459" src="https://github.com/user-attachments/assets/f34a4bc2-91d7-470f-9788-9d5b523dc2f8" />
+
+##Task 12: Repository Mirroring
+Description
+
+Configured repository mirroring between GitLab and GitHub. The GitHub repository URL was added to the GitLab Mirroring Repositories section, and authentication was configured using a GitHub Personal Access Token. After configuration, the mirroring process was successfully verified.
+
+Steps Performed
+Opened the GitLab project settings.
+Navigated to Settings → Repository → Mirroring Repositories.
+Added the GitHub repository URL.
+Selected Push as the mirroring direction.
+Configured authentication using GitHub Personal Access Token (PAT).
+Saved the mirroring configuration.
+Verified successful synchronization between GitLab and GitHub.
+
+<img width="1603" height="847" alt="Screenshot 2026-06-04 032247" src="https://github.com/user-attachments/assets/46e89bd9-d5b3-4a71-a76a-d8d8cee3cf05" />
+
+##Task 13: Branch Protection Rule Configuration
+Description
+
+Configured a branch protection rule for the main branch in GitHub to prevent direct changes and enforce a Pull Request-based workflow. This ensures that all changes are reviewed before being merged into the main branch.
+
+Steps Performed
+Opened the GitHub repository settings.
+Navigated to Settings → Branches / Rulesets.
+Created a new branch protection rule for the main branch.
+Configured the target branch as main.
+Enabled Require a pull request before merging.
+Saved the branch protection rule.
+Verified that the rule was successfully applied to the main branch.
+<img width="1887" height="903" alt="Screenshot 2026-06-04 033015" src="https://github.com/user-attachments/assets/12358b1f-be7f-4d35-bda3-3887819c9d32" />
+<img width="969" height="493" alt="Screenshot 2026-06-04 053551" src="https://github.com/user-attachments/assets/ba6caeb5-b5de-4263-b54d-5e1f167701ab" />
+
+##Task 14: Final Verification
+Verification Checklist
+Sr. No.	Task	Status
+1	GitHub repository created	✅ Completed
+2	Repository cloned locally	✅ Completed
+3	Feature branches created (feature-A & feature-B)	✅ Completed
+4	Pull Requests created and merged	✅ Completed
+5	Merge conflict resolved	✅ Completed
+6	Fork created and updated	✅ Completed
+7	GitLab repository configured	✅ Completed
+8	Repository mirroring working	✅ Completed
+9	Branch protection enabled	✅ Completed
+
+Summary
+
+All Git and GitLab practical tasks were successfully completed. The repository was created, cloned, and managed using feature branches. Pull Requests were created and merged, merge conflicts were resolved, a public repository was forked and updated, GitLab integration was configured, repository mirroring was verified, and branch protection rules were applied successfully.
