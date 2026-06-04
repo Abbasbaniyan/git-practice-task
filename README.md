@@ -84,4 +84,38 @@ Created a Pull Request for feature-B.
 GitHub detected a merge conflict because both branches modified the same lines of code.
 <img width="1550" height="897" alt="Screenshot 2026-06-04 014316" src="https://github.com/user-attachments/assets/77557c45-ce8e-42ae-917f-7e6d42d5be14" />
 
-##
+##Task 8 & 9: Merge Conflict Resolution and Successful Merge
+Description
+
+A merge conflict occurred while attempting to merge the feature-B branch into the main branch because both branches contained changes to the same file (index.html). The conflict was identified and resolved manually by reviewing the conflicting code sections. After resolving the conflict, the changes were committed and pushed successfully. The Pull Request was then merged into the main branch.
+
+Steps Performed
+Detected the merge conflict in the Pull Request.
+Reviewed the conflicting code in index.html.
+Manually resolved the conflict by selecting the required changes.
+Marked the conflict as resolved.
+Committed and pushed the updated code.
+Successfully merged the Feature-B Pull Request into the main branch.
+<img width="1911" height="848" alt="Screenshot 2026-06-04 004754" src="https://github.com/user-attachments/assets/91b34594-4544-4fd7-a178-0fa8104449df" />
+
+##Task 10: Fork Repository and Create Pull Request
+Description
+
+Forked a public GitHub repository and created a personal copy under my GitHub account. The forked repository was cloned to the local machine, the README file was updated, and the changes were committed and pushed. Finally, a Pull Request was created to submit the changes to the original repository.
+
+Steps Performed
+Forked a public GitHub repository.
+Cloned the forked repository to the local machine.
+Updated the README.md file.
+Staged and committed the changes.
+Pushed the changes to the forked repository.
+Created a Pull Request to the original repository.
+Commands Used
+git clone <forked-repository-url>
+cd repository-name
+git add .
+git commit -m "Improved README"
+git push origin main
+#
+
+<img width="918" height="342" alt="Screenshot 2026-06-04 022928" src="https://github.com/user-attachments/assets/961d71dc-e2c2-444c-8c8a-4bfea83cfdce" />
